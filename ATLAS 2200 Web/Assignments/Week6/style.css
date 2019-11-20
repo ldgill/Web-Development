@@ -1,0 +1,61 @@
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+	content: "";
+  display: inline-block;
+  clear: both;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+.fa{
+    
+}
+.fa-snowflake-o{
+    color:blue;
+}
+.fa-spinner{
+    color:aqua;
+    
+}
+.vimeo{
+
+    border: 10px solid blue;
+    width: 45%;
+    height: 450px;
+    margin:2%;
+   display: inline-block;
+}
+.google{
+    border: 10px solid blue;
+    width: 45%;
+    height: 450px;
+    margin: 2%;
+    display: inline-block;
+}
+.youtube{
+    border: 5px solid black;
+    height:450px;
+    width: 30%;
+    margin: 1%;
+    display: inline-block;
+}
+.song{
+    width: 30%;
+    border: 5px solid black;
+    height: 450px;
+    margin: 1%;
+    display: inline-block;
+}
+.video{
+    width: 30%;
+    height: 450px;
+    border: 5px solid blue;
+    margin: 1%;
+    display: inline-block;
+}

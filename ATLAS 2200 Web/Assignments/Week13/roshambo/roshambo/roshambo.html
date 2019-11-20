@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link href="normalize.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header>
+    <h1> Rock Paper Scissors</h1>
+  </header>
+  
+  <div class="wrapper"> 
+    <h2> Let's Play</h2>
+    <p>Choose your number of games</p>
+    <button onclick="gameOne()">Best One of One</button>
+    <button onclick="gameTwo()">Best Two of Three</button>
+    <button onclick="gameThree()">Best Three of Five</button>
+    <form id="myForm">         
+    <p>Choose your weapon!</p>
+    <button type="button" onClick='play("rock");'>Rock</button>
+    <button type="button" onClick='play("paper");'>Paper</button>
+    <button type="button" onClick='play("scissors");'>Scissors</button>
+    <div id="weapons"></div>
+    <div id="result"></div>
+    <div id="score"> Score 
+        You:<span id="pScore">0</span> 
+        Me:<span id="cScore">0</span>
+    </div>
+
+  
+  <input type="button" onclick="myFunction()" value="Reset">
+</form>
+
+
+  </div>
+  
+<!--   these divs are used to add a little animation to game when using roshambo_withanimation.js -->
+  <div id="rock" class="hidden">Rock</div>
+   <div id="paper" class="hidden">Paper</div>
+  <div id="scissors" class="hidden">Scissors</div>
+   <div id="shoot"class="hidden">Shoot</div>
+
+
+
+<!-- use only one script, roshambo_withanimation.js adds some animation using CSS transition and setTimeout()-->
+<!--  <script src="js/roshambo.js"></script>-->
+<script src="js/roshambo_withanimation.js"></script>
+</body>
+
+</html>

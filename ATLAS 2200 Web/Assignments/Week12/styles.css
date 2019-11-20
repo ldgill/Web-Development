@@ -1,0 +1,35 @@
+html{
+	background: url("japan-2038902_1920.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	text-align: center;
+}
+body{
+    width: 60%;
+    margin: auto;
+}
+p  {
+	font-size: 2em;
+}
+
+#debug {
+    display:block;
+    padding: 10px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width: 15%;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#clock{
+    border-style: solid;
+    border-width: 5px;
+    padding-bottom: 20px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.3);
+    width: 99%;
+    
+}

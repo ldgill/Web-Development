@@ -1,0 +1,17 @@
+<!doctype html>
+<html> 
+    <head>
+        <title>Hello Me</title>
+    </head>
+    
+<body>
+    <h1>Hello Me</h1> 
+    <p> I am a very dedicate driven person who just desires the knowledge and capability to create fun, cool and positively life changing technology. Interestly enough, my inspeation for becoming a electrical and computer engineer was becuase I watch Ironman and absolutely love J.A.R.V.I.S. Someday I want to make something like if not better than J.A.R.V.I.S unless someone beats me to it! On the other handd I enjoy being lazy and doing nothing. I would say my spirit animal is a sloth becuase it fits my lazy tendicies which is about 85% of the time of my life.  </p> 
+    <p> Someday I want to work for google which is why my favorite webiste is google, well that and ng and everything you want to know with a search bar and a keyboard.</p>
+    
+    <a href="http://www.google.com"> <abbr title="favorite"> Fav </abbr> website </a>
+    
+    <p><i> Other webpage! <a href="hello-world.html">Learn about me</a></i></p>
+</body>
+</html>
+    
