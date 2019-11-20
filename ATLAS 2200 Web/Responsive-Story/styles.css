@@ -1,0 +1,397 @@
+    *, *:before, *:after { 
+			margin:0; 
+			padding:0; 
+			-webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+			}
+
+    .wrapper {
+			max-width: 1400px;
+            min-width: 280px;
+            text-align: center;
+		}
+
+    body { 
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        text-shadow: 0.5px 0.5px 2px rgb(0, 25, 255);
+        color: black;
+        transition: all 200ms ease;
+        
+        background: url("../../../rsz_child1.jpg") no-repeat right bottom fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin-bottom: none;
+        }
+
+    footer {
+        color: black;
+        font-size: 1em;
+        text-shadow: 0.5px 0.5px 2px #0019ff;
+        font-family: 'Francois One', sans-serif;
+        bottom: 0px;
+        position: absolute;
+        background: rgba(255,255,255, 0.5);
+	    }
+
+    h2 {
+        margin: auto;
+        color: rgb(0, 25, 255);
+        text-shadow: 0.5px 0.5px 2px #000;
+        font-size: 3em;
+        font-family: 'Questrial', sans-serif;
+	    }
+
+    .side{
+			background: rgba(55,55,55, 0.3);
+			padding: 5px;
+			width: 280px;
+			margin: 0 auto;
+			position: relative;
+            float: left;
+    }
+
+	.birth, .kid, .teen, .college, .wedding, .adult, .old, .death .life{
+        position: relative;
+        color: black;
+        display: none;
+	    }
+
+    #B,#K,#T,#C,#W,#A,#O,#L { display: none;}
+    #title { display: block; }
+    #end { display: none; }
+
+    @media only screen and (max-width: 480px){
+	   .birth {
+           display: block;
+	       }
+	   #B {
+           display: inline-block;
+	       }   
+	   }
+    
+    @media only screen and (min-width: 481px) and (max-width: 600px){ 	
+	   	#K {
+            display: inline-block;
+           }
+	   .kid {
+           display: block;
+	       }	
+	   }
+
+    @media only screen and (min-width: 601px) and (max-width: 690px){ 
+	   	#T {
+            display: inline-block;
+	       }
+	   .teen {
+           display: block;
+	       }		
+    }
+	   
+    @media only screen and (min-width: 691px) and (max-width: 780px){ 
+	   	#C {
+            display: inline-block;
+	       }
+	   .college {
+           display: block;
+	       }		
+	   }
+
+    @media only screen and (min-width: 781px) and (max-width: 870px){
+	   #W {
+           display: inline-block;
+	       } 
+	   .wedding {
+           display: block;
+	       }		
+	   }
+
+    @media only screen and (min-width: 871px) and (max-width: 1020px){
+	   #A {
+           display: inline-block;
+	       } 
+	   .adult {
+           display: block;
+	       }		
+	   }
+
+    @media only screen and (min-width: 1021px) and (max-width: 1110px){ 
+	   	#O {
+            display: inline-block;
+	       }
+	   .old {
+           display: block;
+	       }	
+        .side{
+            font-size: 17px;
+        }
+}
+
+    @media only screen and (min-width: 1111px){   
+        #L {
+            display: inline-block;
+	       }
+        .side{
+            background: rgba(5,5,5, 0.6);
+            float: none;
+            text-align: center;
+            width: 100%;
+            font-size: 22px;
+        }
+        h2{
+            font-size: 2em;
+        }
+	   .life {
+           color: rgb(0, 25, 255);
+           text-shadow: 0.5px 0.5px 2px #000;
+           display: block;
+	       }	
+        }
+
+    @media only screen and (min-width: 1250px){
+        #end {
+	    	display: inline-block;
+	       }
+        }
+
+        @media only screen and (max-width: 450px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth1.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 451px) and (max-width: 460px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth2.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 461px) and (max-width: 470px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth3.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 471px) and (max-width: 480px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth4.jpg');
+	   }
+
+}
+        @media only screen and (min-width: 481px) and (max-width: 500px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth5.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 501px) and (max-width: 520px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth6.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 521px) and (max-width: 540px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth7.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 541px) and (max-width: 560px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth8.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 561px) and (max-width: 580px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth9.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 581px) and (max-width: 600px){
+	   	 body {
+	   	background-image: url('Pics/rsz_birth10.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 601px) and (max-width: 620px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child1.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 621px) and (max-width: 640px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child2.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 641px) and (max-width: 660px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child3.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 661px) and (max-width: 680px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child4.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 561px) and (max-width: 580px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child5.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 581px) and (max-width: 600px){
+	   	 body {
+	   	background-image: url('Pics/rsz_child6.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 601px) and (max-width: 630px){
+	   	 body {
+	   	background-image: url('Pics/rsz_teen1.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 631px) and (max-width: 660px){
+	   	 body {
+	   	background-image: url('Pics/rsz_teen2.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 661px) and (max-width: 690px){
+	   	 body {
+	   	background-image: url('Pics/rsz_teen3.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 691px) and (max-width: 720px){
+	   	 body {
+	   	background-image: url('Pics/rsz_college1.jpg');
+	   }
+	}
+        @media only screen and (min-width: 721px) and (max-width: 750px){
+	   	 body {
+	   	background-image: url('Pics/rsz_college2.jpg');
+	   }
+
+	   }
+        @media only screen and (min-width: 751px) and (max-width: 780px){
+	   	 body {
+	   	background-image: url('Pics/rsz_college3.jpg');
+	   }
+	}
+        @media only screen and (min-width: 781px) and (max-width: 810px){
+	   	 body {
+	   	background-image: url('Pics/rsz_wedding1.jpg');
+	   		   }
+	}
+        @media only screen and (min-width: 811px) and (max-width: 840px){
+	   	 body {
+	   	   background-image: url('Pics/rsz_wedding2.jpg');
+            }
+	}
+        @media only screen and (min-width: 841px) and (max-width: 870px){
+	   	 body {
+             background-image: url('Pics/rsz_wedding3.jpg');
+             background-position: center center;
+	   }
+	}
+        @media only screen and (min-width: 871px) and (max-width: 900px){
+	   	 body {
+	   	background-image: url('Pics/rsz_adult1.jpg');
+	   }
+	}
+        @media only screen and (min-width: 901px) and (max-width: 930px){
+	   	 body {
+	   	background-image: url('Pics/rsz_adult2.jpg');
+	   }
+	}
+        @media only screen and (min-width: 931px) and (max-width: 960px){
+	   	 body {
+	   	background-image: url('Pics/rsz_adult3.jpg');
+	   }
+	}
+        @media only screen and (min-width: 961px) and (max-width: 990px){
+	   	 body {
+	   	background-image: url('Pics/rsz_adult4.jpg');
+	   }
+	}
+        @media only screen and (min-width: 991px) and (max-width: 1020px){
+	   	 body {
+	   	background-image: url('Pics/rsz_adult5.jpg');
+	   }
+	}
+        @media only screen and (min-width: 1021px) and (max-width: 1050px){
+	   	 body {
+	   	background-image: url('Pics/rsz_old1.jpg');
+	   }
+	}
+        @media only screen and (min-width: 1051px) and (max-width: 1080px){
+	   	 body {
+	   	background-image: url('Pics/rsz_old2.jpg');
+	   }
+	}
+        @media only screen and (min-width: 1081px) and (max-width: 1110px){
+	   	 body {
+	   	background-image: url('Pics/rsz_old3.jpg');
+	   }
+	}
+        @media only screen and (min-width: 1111px) and (max-width: 1120px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end1.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1121px) and (max-width: 1130px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end2.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1131px) and (max-width: 1140px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end3.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1141px) and (max-width: 1150px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end4.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1151px) and (max-width: 1160px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end5.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1161px) and (max-width: 1170px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end6.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1171px) and (max-width: 1180px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end7.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1181px) and (max-width: 1190px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end8.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1191px) and (max-width: 1200px){
+	   	 body {
+	   	background-image: url('Pics/rsz_end9.jpg');
+	       }
+	   }
+        @media only screen and (min-width: 1201px) {
+	   	 body {
+	   	   background-image: url('Pics/rsz_end10.jpg');
+            background-position: bottom;
+	       }
+	   }
