@@ -1,0 +1,42 @@
+body{
+	background-color: #EEE;
+	font-family: Arial, sans-serif;
+}
+#container{ 
+	background-color: #EEE;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header {
+	color: purple;
+	text-align: center;
+	padding: 10px;
+}
+#registar {
+	color: purple;
+	text-align: right;
+	padding: 10px;
+}
+#content{
+	color: purple;
+	text-align: center;
+}
+#bars ul {
+	list-style-type: none;
+	padding: 0;
+}
+#bars {
+	width: 400px;
+	float :left;
+}
+#button {
+	width: 400px;
+	float: right;
+}
+#footer {
+	clear: both;
+	padding: 10px;
+	color: purple;
+	text-align: right;
+}
