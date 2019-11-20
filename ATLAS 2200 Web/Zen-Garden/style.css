@@ -1,0 +1,398 @@
+html { 
+    background: url("images/grayrain.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+}
+  
+header {
+    width:100%;
+    height: 100%;
+    text-transform: uppercase;
+    background: url("images/rsz_1umbrella.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    min-width: 200px;
+    min-height: 620px;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    
+}
+header h1, h2{
+    margin-right: 13%;
+    font-size: 75px;
+    color: #000000;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 4px #FFFFFF;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 0;
+}
+
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.intro p{
+    font-family: 'Work Sans', sans-serif;
+}
+.main p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+abbr {
+	border-bottom: none;
+	}
+a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.summary{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/rsz_blueumbrella.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 620px;
+}
+.summary p{
+    width: 70%;
+    color: #0d0451;
+    font-size: 40px;
+    background-color: rgba(200, 200, 200, 0.6);
+    text-shadow: 0.5px 0.5px 2px #fff;
+    display: block;
+    border: 5px solid #0d0451;
+    margin-top: 13%;
+    
+    }
+.summary a:link, a:visited {
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 2px #0d0451;
+    color: #fff;
+}
+.summary a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #0d0451;
+}
+
+.preamble {
+    width:auto;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/rsz_yellowstreetrain.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 620px;
+}
+.preamble h3{
+    color: rgb(226, 200, 0);
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    font-size: 60px;
+}
+.preamble p{
+    width: auto;
+    color: black;
+    font-size: 35px;
+    background-color: rgba(200,200,200,0.5);
+    text-shadow: 0.7px 0.7px 2px #fffb96;
+    display: block;
+    border: 4px solid #e2c800;
+}
+
+.explanation{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/rsz_fog.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 620px;
+}
+.explanation h3{
+    color: #418925;
+    text-align: center;
+    text-shadow: 1px 1px 4px white;
+    font-size: 60px;
+    margin: auto;
+}
+.explanation p{
+    width: 40%;
+    color: white;
+    font-size: 35px;
+    background-color: rgba(40, 90, 30, 0.3);
+    text-shadow: 1px 1px 2px #000000;
+    display: inline-block;
+    margin: 2% 4% 0% 4%;
+    border: 5px solid #418925;
+}
+
+.participation {
+    width:auto;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/pink.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 620px;
+    }
+.participation h3{
+    color: #ff169a;
+    text-align: center;
+    text-shadow: 1px 1px 7px #000;
+    font-size: 70px;
+    margin: auto;
+    display: block;
+    width: 35%;
+    background-color: rgba(200,200,200,0.1); 
+}
+.participation p{
+    width: 30%;
+    color: #dbdbdb;
+    font-size: 33px;
+    background-color: rgba(0,0,0,0.6);
+    text-shadow: 1px 1px 4px #5d5e68;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+    border: 3px solid #ff169a;
+}
+.participation a:link, a:visited {
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 2px #dbdbdb;
+    color: #ff169a;
+}
+.participation a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #9d9ea8;
+}
+
+.benefits{
+    width:auto;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/rsz_1redumbrella.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 200px;
+    min-height: 620px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.benefits h3{
+    color: #af3c34;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+    font-size: 70px;
+    margin-left: none;
+    display: block;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.benefits p{
+    width: 38%;
+    color: #000;
+    font-size: 30px;
+    background-color: rgba(200, 200, 200, 0.4);
+    text-shadow: 0.5px 0.5px 2px #af3c34;
+    display: inline-block;
+    border: 5px solid #af3c34;
+    margin-right: none;
+    margin-left: 60%;
+    margin-top: 9%;
+    margin-bottom: none;
+    
+}
+
+.requirements{
+    width:auto;
+    text-align: center;
+    display: inline-block;
+    height: 100%;
+    background: url("images/rsz_nightumbrella.jpg") no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-width: 200px;
+    min-height: 620px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.requirements h3{
+    color: #3af1ff;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 70px;
+    margin: auto;
+    display: block;
+    width: 50%;
+}
+.requirements p{
+    width: 30%;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0.7px 0.7px 2px #3af1ff;
+    margin: auto;
+    display: inline-block;
+    margin: 1%;
+    border: 3px solid #3af1ff;
+}
+.requirements a:link, a:visited {
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 2px #fff;
+    color: #3af1ff;
+}
+.requirements a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #3af1ff;
+}
+
+
+.sidebar {
+	position: absolute; 
+	top: 620px; 
+	right: 0;
+    width: 17%;
+    overflow: auto;
+    background-color: rgba(200, 200, 200, 0.6);
+    border: 5px solid #0d0451;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 620px;
+	}
+.sidebar .wrapper { 
+    color: white;
+    font-size: 15px; 
+    font-family: 'Work Sans', sans-serif;
+	width: 100%; 
+    height: 610px;
+	}
+.sidebar a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #0d0451;
+}
+.sidebar a:hover, a:active {
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 2px #000;
+    color: #0d0451;
+}
+.sidebar h3 {  
+	width: 100%; 
+	height: 45px; 
+    font-size: 30px;
+    text-align: center;
+    padding: none;
+    margin: none;
+    color: #0d0451;
+    text-shadow: 1px 1px 4px #fff;
+    display: inline-block;
+	}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li { 
+	display: block;  
+	margin-bottom: 1%;
+	list-style-type: none;
+    font-size: 15px;
+    color: #0d0451;
+	}
+
+footer{
+    position: absolute;
+    right: 17%;
+    top: 1140px;
+    width: 6%;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: rgba(13, 4, 81, 0.6);
+    border: 5px solid #fff;
+   
+}
+footer a {
+  display: block;
+  border-bottom: 0px solid transparent;
+}
+footer a:link, a:visited {
+    text-decoration: none;
+    text-shadow: 0.7px 0.7px 2px #0d0451;
+    color: #fff;
+}
+
+footer a:hover, a:active {
+    color: #0d0451;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #fff;
+}
